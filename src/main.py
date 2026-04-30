@@ -1,5 +1,5 @@
 import datetime
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply
 
 print("Name: Mostofa Kamal Joy")
 print("Date:", datetime.date.today())
@@ -10,5 +10,3 @@ if __name__ == "__main__":
 
     print(f"Addition: {a} + {b} = {add(a, b)}")
     print(f"Subtraction: {a} - {b} = {subtract(a, b)}")
-    print(f"Multiplication: {a} * {b} = {multiply(a, b)}")
-    print(f"Division: {a} / {b} = {divide(a, b)}")
